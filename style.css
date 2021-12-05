@@ -14,7 +14,8 @@ body, html{
 
 
 .main{
-  height:120%;
+  height:100%;
+  background-color: #D3D3D3;
   position: relative;
 }
 
@@ -23,15 +24,17 @@ body, html{
 }
 
 #center{
-  font-size: 6vmin;
-  background-color: #fff;
-  color: #000;
+  font-size: 7vmin;
+  background-color: #505050;
+  opacity: 0.8;
+  border-radius: 40px;
+  color: #FFFFFF;
   font-family: Helvetica;
   letter-spacing: 1px;
   pointer-events: none;
   font-weight: 100;
   text-align: left;
-  padding: 2vmin;
+  padding: 3vmin;
   position: absolute;
   width: 70vw;
   height: 70vh;
@@ -46,7 +49,7 @@ body, html{
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 2px; /* Adjust as needed */
   animation:
-    typing 4s steps(30, end),
+    typing 2s steps(20, end),
     blink-caret .75s /*step-end*/steps(50, end) infinite;
 }
 
