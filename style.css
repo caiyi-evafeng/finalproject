@@ -15,7 +15,7 @@ body, html{
 
 .main{
   height:100%;
-  background-color: #D3D3D3;
+  /*background-color: #FFFFFF;*/
   position: relative;
 }
 
@@ -25,10 +25,10 @@ body, html{
 
 #center{
   font-size: 7vmin;
-  background-color: #505050;
+  /*background-color: #505050;
   opacity: 0.8;
-  border-radius: 40px;
-  color: #FFFFFF;
+  border-radius: 40px;*/
+  color: #000000;
   font-family: Helvetica;
   letter-spacing: 1px;
   pointer-events: none;
