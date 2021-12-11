@@ -1,3 +1,4 @@
+
 let centerElem;
 let backgroundElem;
 let resetTimeout;
@@ -154,7 +155,7 @@ function checkIfAllChildrenComplete(parentElemToCheck) {
   return allComplete;
 }
 
-
+object.onclick = function(){myScript};
 
 /*
 
